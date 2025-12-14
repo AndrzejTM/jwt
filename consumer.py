@@ -9,9 +9,9 @@ import portalocker
 # Nazwa pliku kolejki
 QUEUE_FILE = 'queue.csv'
 # Czas trwania pracy (symulacja rozmowy)
-WORK_DURATION_SECONDS = 3  # s
+WORK_DURATION_SECONDS = 1  # s
 # Interwał sprawdzania kolejki
-CHECK_INTERVAL_SECONDS = 4  # s
+CHECK_INTERVAL_SECONDS = 1  # s
 
 # Unikatowy ID dla tego konsumenta
 CONSUMER_ID = f"C-{os.getpid()}-{random.randint(1000, 9999)}"
